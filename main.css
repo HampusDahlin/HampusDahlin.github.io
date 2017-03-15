@@ -1,0 +1,99 @@
+body {
+	margin: 0;
+	/*font-family: "Open Sans", sans-serif; */
+	font-family: "Raleway", sans-serif;
+}
+
+#bgimg {
+	width:100vw;
+	height:100vh;
+	position: fixed;
+	transform: scale(1.05);
+	background:
+		linear-gradient(
+		  rgba(255, 255, 255, 0.5), 
+		  rgba(255, 255, 255, 0.5)
+		), 
+		url("img/sky.jpg");
+	background-size: cover;
+	filter: blur(10px);
+}
+
+#content-container {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+}
+
+#content {
+	margin-top: 2em;
+	margin-left: 20vw;
+	margin-right: 20vw;
+	display: flex;
+	flex-direction: column;
+}
+
+#logo {
+	width: 30%;
+	margin: auto;
+	margin-bottom: 3vh;
+}
+
+#name {
+	margin: auto;
+	font-size: 4em;
+	font-weight: 300;
+	opacity: 0.8;
+}
+
+#ruler {
+	margin: auto;
+	margin-top: 2vh;
+	margin-bottom: 10vh;
+	height: 1px;
+	width: 35%;
+	background-color: #101010;
+	opacity: 0.4;
+}
+
+#about-me {
+	margin-bottom: 10vh;
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.8em;
+	font-weight: 900;
+	color: #ABABAB;
+}
+
+#se {
+	color: #DC6900;
+}
+
+#id {
+	color: #008D88;
+}
+
+#bd {
+	color: #D5079B;
+}
+
+#social {
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	width: 40%;
+}
+
+.button-container {
+	width:20%;
+	opacity: 0.4;
+}
+
+.button-container:hover {
+	transform: scale(1.1);
+	opacity: 0.6;
+}
+
+.social-button {
+}
+
