@@ -67,7 +67,8 @@ body {
 }
 
 .am {
-	min-width: 15vw;
+	min-width: 20vw;
+	text-align: center;
 }
 
 #se {
