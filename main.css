@@ -32,7 +32,7 @@ body {
 	display: flex;
 	flex-direction: column;
 
-	@media (max-width: 1000) {
+	@media (device-width: 1000px+) {
 		margin-left: 10vw;
 		margin-right: 10vw;
 	}
